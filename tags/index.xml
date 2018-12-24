@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tanvi Gupta</title>
-    <link>http://guptatn.github.io/tags/</link>
+    <link>https://guptatn.github.io/tags/</link>
     <description>Recent content in Tags on Tanvi Gupta</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://guptatn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://guptatn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
