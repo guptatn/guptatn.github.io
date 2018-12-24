@@ -1,0 +1,43 @@
+baseURL = "http://guptatn.github.io/"
+languageCode = "en-us"
+title = "Tanvi Gupta"
+theme = "hugo-goa"
+
+[params]
+
+author = "Tanvi Gupta"
+intro = "Biomedical Engineer and Data Analyst"
+description = "*CareLogIQ Corp* \n\n I am interested in bringing better healthcare outcomes through innovations in biomedical data and devices."
+authorimage = "profile.jpg"
+dateformat = "Nov 18, 2018"
+
+## Site Meta Settings
+[params.meta]
+description = "Personal website, blog, notes"
+keywords = "minimalist,blog,developer,data,anlaysis"
+
+## Social Accounts
+[params.social]
+github = "guptatn"
+linkedin = "in/guptatn"
+email = "tanvigupta.mail@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Tanvi Gupta. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+
+## Main Menu
+
+#[[menu.main]]
+#  name = "blog"
+#  weight = 100
+#  identifier = "blog"
+#  url = "/blog/"
+
+[[menu.main]]
+  name = "Résumé"
+  identifier = "Résumé"
+  url = "files/resume.pdf"
