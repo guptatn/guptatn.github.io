@@ -6,8 +6,8 @@ theme = "hugo-goa"
 [params]
 
 author = "Tanvi Gupta"
-intro = "Biomedical Engineer and Data Analyst"
-description = "*CareLogIQ Corp* \n\n I am interested in bringing better healthcare outcomes through innovations in biomedical data and devices."
+intro = "Big Data Analyst | Data Engineer"
+description = "*Ann Arbor* \n\n I am interested in bringing better healthcare outcomes through innovations in biomedical data analysis."
 authorimage = "profile.jpg"
 dateformat = "Nov 18, 2018"
 
@@ -24,7 +24,7 @@ email = "tanvigupta.mail@gmail.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Tanvi Gupta. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2016-2022. Tanvi Gupta. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 socialmarkup = true
@@ -37,7 +37,7 @@ socialmarkup = true
 #  identifier = "blog"
 #  url = "/blog/"
 
-[[menu.main]]
-  name = "Résumé"
-  identifier = "Résumé"
-  url = "files/resume.pdf"
+# [[menu.main]]
+#   name = "Résumé"
+#   identifier = "Résumé"
+#   url = "files/resume.pdf"
