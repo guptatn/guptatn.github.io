@@ -1,29 +1,16 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+# Ensure that you have rebuilt the site and commited your changes
+echo "Deploying to https://guptatn.github.io's master..."
 
-# Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+# Create the subtree
+git subtree split --prefix public -b gh-pages
 
-# Go To Public folder
-cd public
+# Push to origin
+git push -f origin gh-pages:master
 
-# Add changes to git.
-git add .
+# Remove so that later the process can be repeated
+git branch -D gh-pages
 
-# Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
-git commit -m "$msg"
-
-# Push source and build repos.
-git push origin master
-
-# Come Back up to the Project Root
-cd ..
-
-echo -e "\033[0;32mUpdating site source on GitHub...\033[0m"
-# Push the source
-git push origin master:source
+# Push master
+git push origin source:source -f
