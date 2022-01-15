@@ -6,7 +6,7 @@ theme = "hugo-goa"
 [params]
 
 author = "Tanvi Gupta"
-intro = "Big Data Analyst | Data Engineer"
+intro = "Co-founder | Data Engineer"
 description = "*Ann Arbor* \n\n I am interested in bringing better healthcare outcomes through innovations in biomedical data analysis."
 authorimage = "profile.jpg"
 dateformat = "Nov 18, 2018"
