@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Building.."
+
+hugo
+
 # Ensure that you have rebuilt the site and commited your changes
 echo "Deploying to https://guptatn.github.io's master..."
 
