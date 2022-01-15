@@ -18,7 +18,7 @@ keywords = "minimalist,blog,developer,data,anlaysis"
 
 ## Social Accounts
 [params.social]
-github = "guptatn"
+# github = "guptatn"
 linkedin = "in/guptatn"
 email = "tanvigupta.mail@gmail.com"
 
